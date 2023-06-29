@@ -27,6 +27,7 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(to top, var(--Soft-blue), var(--Soft-violet) 100%);
+  font-family: 'Kumbh Sans', sans-serif !important;
 }
 
 .mobile,
@@ -106,14 +107,15 @@ body {
 }
 
 .container .text h2 {
-  margin: 0;
+  margin: 0!important;
+  font-weight: 700;
 }
 
 .container .text .faq div h4 {
   font-size: 10px;
   color: #8F8D98;
   margin: 7px 0;
-  font-weight: bold;
+  font-weight: 700;
   transition: .3s;
 }
 
@@ -146,14 +148,14 @@ body {
   height: 28px;
 }
 
-.container .text .faq p {
+.container .text .faq .faq-p {
   overflow: hidden;
   height: 0px;
   color: #AAA9AE;
-  /*   color: #AEAEAF; */
   font-size: 8px;
+  font-weight: 400;
   margin: 2px 0;
-  transition: .4s
+  transition: .4s;
 }
 
 @media(max-width: 767px) {
